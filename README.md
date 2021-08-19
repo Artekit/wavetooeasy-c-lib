@@ -1,6 +1,6 @@
 # Artekit WaveTooEasy - Generic C Library
 
-The *WaveTooEasy - Generic C Library* allows you to communicate with the *WaveTooEasy* board using serial communication (UART).
+The *WaveTooEasy - Generic C Library* allows you to communicate with the [*WaveTooEasy* board](https://www.artekit.eu/products/devboards/wavetooeasy/) using serial communication (UART).
 
 [![](https://www.artekit.eu/resources/doc/wavetooeasy/wavetooeasy-manual.jpg)](https://www.artekit.eu/products/devboards/wavetooeasy/)
 
@@ -15,6 +15,13 @@ A full implementation example is provided in the `wavetooeasy_serial` directory.
 ![](https://www.artekit.eu/resources/doc/wavetooeasy/wavetooeasy-tester.jpg)
 
 The easiest way to connect the *WaveTooEasy* to a PC is to use an USB-to-Serial converter like the [AK-FT232RL board](https://www.artekit.eu/products/accessories/comm/ak-ft232rl-breakout/). The AK-FT232RL converter can be connected directly to the *WaveTooEasy* since both boards share the same pinout and it also provides 5V/500mA.
+
+## Links
+
+* [WaveTooEasy product page](https://www.artekit.eu/products/devboards/wavetooeasy/)
+* [WaveTooEasy manual](https://www.artekit.eu/doc/guides/wavetooeasy/)
+* [WaveTooEasy - Library for Arduino](https://github.com/Artekit/Artekit_WaveTooEasy)
+* [WaveTooEasy - Generic C library](https://github.com/Artekit/wavetooeasy-c-lib)
 
 ## Usage
 
@@ -536,3 +543,13 @@ All the function returns `ERROR_NONE` on success. Otherwise it returns an error 
 * `ERROR_PARAM`: there is an error with some or all of the parameters supplied.
 
 * `ERROR_RX_TIMEOUT`: *WaveTooEasy* is not responding to commands.
+
+## Bugs report
+
+You can report bugs here by creating a new issue or in the [Artekit forum](https://forum.artekit.eu/).
+
+## License
+
+Released under MIT license.
+
+Copyright (c) 2021 Artekit Labs.
